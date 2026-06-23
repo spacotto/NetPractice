@@ -1,2 +1,9 @@
-# NetPractice
-NetPractice is a hands-on networking project featuring 10 progressive levels that teach essential computer networking fundamentals.
+_This project has been created as part of the 42 curriculum by spacotto._
+
+## Description
+
+
+## Instructions
+
+
+## Resources
