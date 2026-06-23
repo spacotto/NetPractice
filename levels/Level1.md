@@ -12,6 +12,12 @@
 
 ### The Solution
 
+Because `Host B`'s interface (`B1`) is locked (`'ip_edit':'false'`), we must modify `Host A`'s interface (`A1`) to match `Host B`'s network parameters. The **subnet mask** `255.255.255.0` dictates that the first three octets (`104.98.23`) represent the **network ID** and must be identical on both machines. **Only the last digit can be unique to identify the specific host**.
+- **IP Address:** `104.98.23.12`
+- **Subnet Mask:** `255.255.255.0`
+
+To join `Host B`'s network, `Host A`'s IP must **start** with `104.98.23.`, and **end** with any **valid host number from 1 to 254** (**excluding 12**, which `Host B` is already using).
+
 ## Achieve Goal 2
 
 ### The Issue
