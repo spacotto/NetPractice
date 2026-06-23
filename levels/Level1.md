@@ -12,11 +12,9 @@
 
 ### The Solution
 
-Because `Host B`'s interface (`B1`) is locked (`'ip_edit':'false'`), we must modify `Host A`'s interface (`A1`) to match `Host B`'s network parameters. The **subnet mask** `255.255.255.0` dictates that the first three octets (`104.98.23`) represent the **network ID** and must be identical on both machines. **Only the last digit can be unique to identify the specific host**.
-- **IP Address:** `104.98.23.12`
-- **Subnet Mask:** `255.255.255.0`
-
-To join `Host B`'s network, `Host A`'s IP must **start** with `104.98.23.`, and **end** with any **valid host number from 1 to 254** (**excluding 12**, which `Host B` is already using).
+1. Because `Host B`'s interface (`B1`) is locked (`'ip_edit':'false'`), we must modify `Host A`'s interface (`A1`) to match `Host B`'s network parameters.
+2. The **subnet mask** `255.255.255.0` dictates that the first three octets (`104.98.23`) represent the **network ID** and must be identical on both machines. **Only the last digit can be unique to identify the specific host**.
+3. To join `Host B`'s network, `Host A`'s IP must **start** with `104.98.23.`, and **end** with any **valid host number from 1 to 254** (**excluding 12**, which `Host B` is already using).
 
 ## Achieve Goal 2
 
@@ -27,3 +25,7 @@ To join `Host B`'s network, `Host A`'s IP must **start** with `104.98.23.`, and 
 - **Network:** Connect `host C` (my Mac) to `host D` (my little sister's computer).
 
 ### The Solution
+
+1. Because `Host C`'s interface (`C1`) is locked, we must modify `Host D`'s interface (`D1`) to match `Host C`'s network parameters.
+2. The subnet mask `255.255.0.0` dictates that only the first two octets (`211.191`) represent the network ID. The remaining two numbers can vary between the hosts.
+3. To join `Host C`'s network, `Host D`'s IP must start with `211.191.`. The last two octets can be any valid numbers between 0 and 255 (as long as the entire combination doesn't exactly duplicate Host C's IP).
