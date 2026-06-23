@@ -23,4 +23,6 @@ Access the local web server to deliver NetPractice’s web pages
 ./run.sh
 ```
 
+Select the Training or Evaluation and enter your intranet login.
+
 ## Resources
