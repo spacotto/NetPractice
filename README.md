@@ -26,3 +26,9 @@ Access the local web server to deliver NetPractice’s web pages
 Select the Training or Evaluation and enter your intranet login.
 
 ## Resources
+- [TCP/IP addressing](https://en.wikipedia.org/wiki/Internet_protocol_suite)
+- [Subnet masks](https://en.wikipedia.org/wiki/Subnet)
+- [Default gateways](https://en.wikipedia.org/wiki/Default_gateway)
+- [Router (computing](https://en.wikipedia.org/wiki/Router_(computing))
+- [Network switch](https://en.wikipedia.org/wiki/Network_switch)
+- [OSI layers](https://en.wikipedia.org/wiki/OSI_model)
