@@ -25,6 +25,10 @@ Access the local web server to deliver NetPractice’s web pages
 
 Select the Training or Evaluation and enter your intranet login.
 
+### Submission details
+
+Every time a level is solved, the configuration shall be exported by clicking on the "Get my config" button. By the end of the training, 10 exported configuration files (one per level) must be placed at the repository root.
+
 ## Resources
 - [TCP/IP addressing](https://en.wikipedia.org/wiki/Internet_protocol_suite)
 - [Subnet masks](https://en.wikipedia.org/wiki/Subnet)
