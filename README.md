@@ -30,9 +30,11 @@ Select the Training or Evaluation and enter your intranet login.
 Every time a level is solved, the configuration shall be exported by clicking on the "Get my config" button. By the end of the training, 10 exported configuration files (one per level) must be placed at the repository root.
 
 ## Resources
-- [TCP/IP addressing](https://en.wikipedia.org/wiki/Internet_protocol_suite)
-- [Subnet masks](https://en.wikipedia.org/wiki/Subnet)
+
 - [Default gateways](https://en.wikipedia.org/wiki/Default_gateway)
-- [Router (computing](https://en.wikipedia.org/wiki/Router_(computing))
 - [Network switch](https://en.wikipedia.org/wiki/Network_switch)
 - [OSI layers](https://en.wikipedia.org/wiki/OSI_model)
+- [Router (computing](https://en.wikipedia.org/wiki/Router_(computing))
+- [Subnet Cheat Sheet](https://www.freecodecamp.org/news/subnet-cheat-sheet-24-subnet-mask-30-26-27-29-and-other-ip-address-cidr-network-references/)
+- [Subnet masks](https://en.wikipedia.org/wiki/Subnet)
+- [TCP/IP addressing](https://en.wikipedia.org/wiki/Internet_protocol_suite)
