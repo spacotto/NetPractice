@@ -1,6 +1,6 @@
 # Level 1
 
-![start](https://github.com/spacotto/NetPractice/blob/main/imgs/l01.png)
+![start]()
 
 ## Achieve Goal 1
 
