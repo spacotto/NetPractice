@@ -20,8 +20,6 @@
 | **/31** | `255.255.254` | 2 | 2* | Specialized point-to-point (RFC 3021) |
 | **/32** | `255.255.255.255` | 1 | 1 | Single host route / Loopback |
 
-## Core Rules & Formulas
-
 **Calculating Usable Hosts**
 The formula to determine the number of usable hosts for any given subnet mask is:
 $2^{(32 - \text{CIDR})} - 2$
