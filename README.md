@@ -35,6 +35,7 @@ Every time a level is solved, the configuration shall be exported by clicking on
 - [Network switch](https://en.wikipedia.org/wiki/Network_switch)
 - [OSI layers](https://en.wikipedia.org/wiki/OSI_model)
 - [Router (computing](https://en.wikipedia.org/wiki/Router_(computing))
+- [Subnet Calculator](https://www.calculator.net/ip-subnet-calculator.html)
 - [Subnet Cheat Sheet](https://www.freecodecamp.org/news/subnet-cheat-sheet-24-subnet-mask-30-26-27-29-and-other-ip-address-cidr-network-references/)
 - [Subnet masks](https://en.wikipedia.org/wiki/Subnet)
 - [TCP/IP addressing](https://en.wikipedia.org/wiki/Internet_protocol_suite)
