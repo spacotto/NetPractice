@@ -1,7 +1,5 @@
 # Subnet Mask Cheat Sheet (/16 to /32)
 
-### Subnet Mask Cheat Sheet (/16 to /32)
-
 | CIDR | Dotted Decimal | Total IPs | Usable Hosts | Typical Use Case |
 | :--- | :--- | :--- | :--- | :--- |
 | **/16** | `255.255.0.0` | 65,536 | 65,534 | Large enterprise networks |
@@ -22,9 +20,7 @@
 | **/31** | `255.255.254` | 2 | 2* | Specialized point-to-point (RFC 3021) |
 | **/32** | `255.255.255.255` | 1 | 1 | Single host route / Loopback |
 
----
-
-### Core Rules & Formulas
+## Core Rules & Formulas
 
 **Calculating Usable Hosts**
 The formula to determine the number of usable hosts for any given subnet mask is:
@@ -36,6 +32,6 @@ $2^{(32 - \text{CIDR})} - 2$
     1.  **Network Address:** The first IP in the block (all host bits are `0`).
     2.  **Broadcast Address:** The last IP in the block (all host bits are `1`).
 
-**The /31 Exception**
-*Modern routing equipment sometimes uses `/31` masks for point-to-point links to save IP addresses. In a `/31`, there is no network or broadcast address; both IPs are assigned directly to the two connected interfaces.*
+>[!WARNING]
+>**The /31 Exception:** Modern routing equipment sometimes uses `/31` masks for point-to-point links to save IP addresses. In a `/31`, there is no network or broadcast address; both IPs are assigned directly to the two connected interfaces.
 
