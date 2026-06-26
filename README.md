@@ -32,6 +32,7 @@ Every time a level is solved, the configuration shall be exported by clicking on
 ## Resources
 
 - [Default gateways](https://en.wikipedia.org/wiki/Default_gateway)
+- [NetPractice: An Intro to IP Addresses and Subnets](https://youtu.be/HQUw0CfQWAM)
 - [Network switch](https://en.wikipedia.org/wiki/Network_switch)
 - [OSI layers](https://en.wikipedia.org/wiki/OSI_model)
 - [Router (computing](https://en.wikipedia.org/wiki/Router_(computing))
