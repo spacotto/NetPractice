@@ -2,6 +2,7 @@ _This project has been created as part of the 42 curriculum by spacotto._
 
 ## Description
 
+This project consists of an interactive simulation designed to teach the **fundamentals of computer networking**. In the digital world, every time someone sends an email or loads a website, data travels through a complex maze of IP addresses, routers, and gateways. This project provided a hands-on environment to understand the basics of these underlying mechanics: across 10 levels of increasing difficulty, "broken" simulated network diagrams were presented; the objective was to successfully troubleshoot and configure the correct settings to restore communication between specific computers and the simulated internet.
 
 ## Instructions
 
